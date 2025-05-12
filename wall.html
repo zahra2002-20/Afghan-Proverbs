@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive wall</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>- Afghan Proverbs -</h1>
+        <p>{ Wisdom through generations }</p>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home </a></li>
+                <li><a href="gallery.html">Gallery </a></li>
+                <li><a href="detail.html"> Details </a></li>
+                <li><a href="wall.html">Interactive wall </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="interactive-wall">
+            <h2 style="text-align: center;">Share your favorite Proverb</h2>
+
+            <form class="proverb-form">
+                <div class="form-group">
+                    <label for="name">your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Proverb">Proverb (Original):</label>
+                    <textarea id="Proverb" name="Proverb" required ></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="translation">English Translation:</label>
+                    <textarea id="translation" name="translation" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Proverb</button>
+            </form>
+            <div class="submissions">
+                <h3>Recent submissions:</h3>
+                <div class="submission">
+                    <p class="Proverb-text">"درد مشترک، همدردی می آورد"</p>
+                    <p class="Proverb-translation">"Shared pain, brings sympathy"</p>
+                    <p class="submitter">Submitted by: Ahmad</p>
+                </div>
+            </div>
+        </section>
+    </main>
+     <footer>
+        <p>&copy; 2025 Afghan Proverbs. All rights reserved.</p>
+        <h2 class="font">Zahra Mehmandoust</h2>
+    </footer>
+</body>
+</html>
